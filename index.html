@@ -3,32 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プライバシーポリシー</title>
+    <title>プライバシーポリシー | Trade Simulation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.8;
         }
         header {
-            background-color: #f8f9fa;
-            padding: 10px 0;
+            background: linear-gradient(135deg, #4CAF50, #2E7D32);
+            color: #fff;
             text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
         main {
-            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-left: 5px solid #4CAF50;
+            padding-left: 15px;
+            font-size: 22px;
+            color: #2E7D32;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            padding: 8px 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        li::before {
+            content: "✔";
+            color: #4CAF50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        p {
+            font-size: 16px;
+            margin: 10px 0;
         }
         footer {
-            background-color: #f8f9fa;
-            padding: 10px 0;
+            background: #2E7D32;
+            color: #fff;
             text-align: center;
-            margin-top: 20px;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        /* ダークモード対応 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #ddd;
+            }
+            main {
+                background-color: #1E1E1E;
+                color: #ddd;
+            }
+            h2 {
+                border-left-color: #66BB6A;
+                color: #A5D6A7;
+            }
+            footer {
+                background-color: #1B5E20;
+            }
+            li::before {
+                color: #66BB6A;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>プライバシーポリシー</h1>
+        プライバシーポリシー
     </header>
     <main>
         <section>
@@ -39,44 +101,38 @@
                 <li><strong>メールアドレス</strong>: ログイン認証、アカウント管理、通知の送信</li>
                 <li><strong>パスワード</strong>: アカウントのセキュリティ管理（適切な暗号化を実施）</li>
             </ul>
-            <p>これらのデータは、ユーザーがアカウントを作成する際に入力する必要があります。</p>
         </section>
         <section>
             <h2>2. データの利用目的</h2>
-            <p>当アプリでは、収集したユーザーデータを以下の目的で利用します。</p>
+            <p>当アプリでは、収集したデータを以下の目的で使用します。</p>
             <ul>
-                <li><strong>ユーザーの識別</strong>: ユーザーアカウントの作成・管理、ログイン認証、適切なサービス提供のため</li>
-                <li><strong>ランキング機能への登録</strong>: ユーザーのアクティビティをランキングに反映し、アプリのコンテンツを充実させるため</li>
+                <li><strong>ユーザーの識別</strong>: アカウント管理、ログイン認証</li>
+                <li><strong>ランキング機能</strong>: ユーザーのアクティビティを反映</li>
             </ul>
-            <p>当アプリでは、収集した情報を上記の目的以外で無断に利用することはありません。</p>
         </section>
         <section>
             <h2>3. データの保存期間</h2>
-            <p>当アプリでは、収集したユーザーデータを以下のポリシーに基づいて保存します。</p>
+            <p>収集したデータは、以下の方針で保存されます。</p>
             <ul>
-                <li><strong>データの保存期間</strong>: ユーザーがアカウントを削除しない限り、データは保持されます。</li>
-                <li><strong>データの削除方法</strong>: ユーザーはアカウント削除をリクエストすることで、保存されたデータを削除することができます。</li>
+                <li>ユーザーがアカウントを削除しない限り、データは保持されます。</li>
+                <li>アカウント削除リクエスト後、データは完全に削除されます。</li>
             </ul>
-            <p>アカウント削除後は、すべての関連データが完全に削除されます。</p>
         </section>
         <section>
-            <h2>4. ユーザーのデータに関する権利</h2>
-            <p>当アプリでは、ユーザーが自身のデータに関して以下の権利を持つことを保証します。</p>
+            <h2>4. ユーザーの権利</h2>
+            <p>ユーザーは、以下の権利を持ちます。</p>
             <ul>
-                <li><strong>データの削除</strong>: ユーザーはアカウント削除をリクエストすることで、保存されたデータを削除できます。</li>
+                <li>データの削除リクエストが可能</li>
+                <li>お問い合わせ窓口を通じたデータ確認</li>
             </ul>
-            <p>これらのリクエストについては、アプリ内の設定またはお問い合わせ窓口を通じて対応いたします。</p>
         </section>
         <section>
             <h2>5. プライバシーポリシーの変更について</h2>
-            <p>本ポリシーの内容は、法令その他本ポリシーに別段の定めのある事項を除いて、ユーザーに通知することなく、変更することができるものとします。</p>
-            <p>変更後のプライバシーポリシーは、当アプリ内または公式ウェブサイトに掲載した時点で効力を生じるものとします。</p>
-            <p>ユーザーは、常に最新のプライバシーポリシーを確認するものとします。</p>
+            <p>本ポリシーは、通知なく変更される場合があります。最新のプライバシーポリシーを確認してください。</p>
         </section>
-        
     </main>
     <footer>
-        <p>&copy; 2025 trade-simulation All Rights Reserved.</p>
+        &copy; 2025 Trade Simulation All Rights Reserved.
     </footer>
 </body>
 </html>
